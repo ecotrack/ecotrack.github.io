@@ -1,2 +1,1 @@
-# ecotrack.github.io
-website
+# mygithubpage
