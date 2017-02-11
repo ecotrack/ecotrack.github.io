@@ -448,7 +448,7 @@ strong,
 -----------------------------------------*/
 .section-header {
 	margin-top: 75px;
-	margin-bottom: 75px;
+	margin-bottom: 50px;
 }
 
 .section-header h2 {
@@ -458,6 +458,10 @@ strong,
 
 .sub-heading {
 	margin-top: 20px;
+}
+
+.sub-heading strong {
+	color: #9dc33c;
 }
 
 /*---------------------------------------
@@ -667,7 +671,7 @@ strong,
 }
 
 .brief .brief-image-right {
-	margin-top: 20px;
+	margin-top: 120px;
 }
 
 .brief .brief-image-right img {
@@ -836,7 +840,7 @@ strong,
 	padding-bottom: 25px;
 	border: 1px solid #e4e7e7;
 	border-bottom: 4px solid #e4e7e7;
-	margin-bottom: 80px;
+	margin-bottom: 50px;
 	padding: 20px;
 	-webkit-transition: all ease 0.55s;
 	transition: all ease 0.55s;
