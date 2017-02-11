@@ -585,7 +585,7 @@ strong,
 
 /* INTRO */
 .intro-section {
-    margin-top: 130px;
+    margin-top: 50px;
 }
 
 .intro-section h5 {
@@ -931,7 +931,7 @@ strong,
 
 .screenshot img {
 	width: auto;
-	height: 500;
+	height: 450px;
 }
 
 .owl-theme .owl-controls .owl-page span {
