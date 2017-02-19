@@ -53,16 +53,16 @@
        url('../fonts/Noto-Sans-700italic/Noto-Sans-700italic.ttf') format('truetype'),
        url('../fonts/Noto-Sans-700italic/Noto-Sans-700italic.svg#NotoSans') format('svg');
 }
-@import url(http://db.onlinewebfonts.com/c/5ec8fd1ee38604bccd747e07ff5530c7?family=Xenophone);
+@import url(https://db.onlinewebfonts.com/c/5ec8fd1ee38604bccd747e07ff5530c7?family=Xenophone);
 
 @font-face {
     font-family: "Xenophone";
-    src: url("http://db.onlinewebfonts.com/t/5ec8fd1ee38604bccd747e07ff5530c7.eot");
-    src: url("http://db.onlinewebfonts.com/t/5ec8fd1ee38604bccd747e07ff5530c7.eot?#iefix") format("embedded-opentype"),
-    url("http://db.onlinewebfonts.com/t/5ec8fd1ee38604bccd747e07ff5530c7.woff2") format("woff2"),
-    url("http://db.onlinewebfonts.com/t/5ec8fd1ee38604bccd747e07ff5530c7.woff") format("woff"),
-    url("http://db.onlinewebfonts.com/t/5ec8fd1ee38604bccd747e07ff5530c7.ttf") format("truetype"),
-    url("http://db.onlinewebfonts.com/t/5ec8fd1ee38604bccd747e07ff5530c7.svg#Xenophone") format("svg");
+    src: url("https://db.onlinewebfonts.com/t/5ec8fd1ee38604bccd747e07ff5530c7.eot");
+    src: url("https://db.onlinewebfonts.com/t/5ec8fd1ee38604bccd747e07ff5530c7.eot?#iefix") format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/5ec8fd1ee38604bccd747e07ff5530c7.woff2") format("woff2"),
+    url("https://db.onlinewebfonts.com/t/5ec8fd1ee38604bccd747e07ff5530c7.woff") format("woff"),
+    url("https://db.onlinewebfonts.com/t/5ec8fd1ee38604bccd747e07ff5530c7.ttf") format("truetype"),
+    url("https://db.onlinewebfonts.com/t/5ec8fd1ee38604bccd747e07ff5530c7.svg#Xenophone") format("svg");
 }
 
 body {
