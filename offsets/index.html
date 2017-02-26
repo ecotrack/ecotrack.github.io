@@ -219,66 +219,6 @@
     </div>
 
 
-    <!-- =========================
-     SECTION: SERVICES
-    ============================== -->
-
-
-    <section class="services grey-bg" id="howdoesitwork">
-        <div class="container">
-
-            <!-- SECTION HEADER -->
-            <div class="section-header">
-                <h2 class="dark-text">how does it <strong>work</strong>?</h2>
-                <div class="colored-line">
-                </div>
-                <div class="sub-heading">
-                    ecotrack offsets your carbon footprint for you.
-
-
-
-                </div>
-            </div>
-
-            <div class="col-md-5 pull-right">
-
-                <!-- VERTICAL REGISTRATION FORM --
-                <div class="vertical-registration-form">
-
-                    <h4 class="dark-text form-heading">Get 1 Month FREE Trial Now</h4>
-
-                    <form class="registration-form" id="contact-form">
-
-                        <input type="text" id="cf-name" name="name" class="form-control input-box" placeholder="Name">
-
-                        <input type="email" id="cf-email" name="email" class="form-control input-box" placeholder="Email">
-
-                        <textarea name="message" id="cf-message" class="form-control textarea-box" rows="4" placeholder="Message"></textarea>
-
-                        <button class="btn btn-primary standard-button">Get Started</button>
-
-                    </form>
-
-                    <!-- FORM SUBMIT SUCCESS / ERROR MESSAGES --
-                    <p class="email-success dark-text small-text"><span class="icon-check-alt2 colored-text"></span>Email sent seuccessfully</p>
-                    <p class="email-error dark-text small-text"><span class="icon-close-alt2"></span>Error! Please check all fields filled correctly</p>
-                    <!-- MAILCHIMP ALERTS
-            <p class="mailchimp-success dark-text"><span class="icon-check-alt2 colored-text"></span>We sent the confirmation to your email</p>
-            <p class="mailchimp-error dark-text"><span class="icon-close-alt2"></span>Error! Please check all fields filled correctly</p>
-            -->
-                </div>
-            </div>
-
-        </div>
-
-    </section>
-
-    <div class="col-md-4 wow fadeInRight" data-wow-offset="10" data-wow-duration="1.75s">
-        <div class="single-service border-bottom-hover">
-
-        </div>
-    </div>
-
             <!-- =========================
              SECTION: SERVICES
             ============================== -->
@@ -359,7 +299,7 @@
                             <div class="colored-line">
                             </div>
                             <div class="sub-heading">
-                                we  offset your emissions so you can <strong>go carbon neutral</strong>. You can also <strong>cancel anytime</strong>, no questions asked.         </div>
+                                we offset your emissions so you can <strong>go carbon neutral</strong>. You can also <strong>cancel anytime</strong>, no questions asked.         </div>
                         </div>
 
                         <!-- PRICING TABLE -->
@@ -389,7 +329,7 @@
                                 </div>
                             </div>-->
 
-                            <!-- SINGLE PACKAGE --
+                            <!-- SINGLE PACKAGE -->
                             <div class="col-md-6 wow flipInY" data-wow-offset="20" data-wow-duration="1.75s">
                                 <div class="single-pricing border-bottom-hover">
 
@@ -404,6 +344,22 @@
                                         <li><span class="colored-text strong">we offset</span>half of your emissions</li>
                                     </ul>
 
+                                    <form method="POST">
+                                      <script
+                                        src="https://checkout.stripe.com/v2/checkout.js"
+                                        class="stripe-button"
+                                        data-key="pk_test_G5YhIkq2PEq84lwU064TZENT"
+                                        data-amount="500"
+                                        data-name="ecotrack"
+                                        data-description=""
+                                        data-image="https://www.ecotrack.me/images/favicons/ecotrack_icon_feb2017152.png"
+                                        data-panel-label="subscribe"
+                                        data-allow-remember-me=false
+                                        data-label="Sign up"
+                                        >
+                                      </script>
+
+                                    <!-- old form
                                     <form action="/charge" method="post" id="payment-form">
                                       <div class="form-row">
 
@@ -411,19 +367,19 @@
                                           <!-- a Stripe Element will be inserted here. -->
                                         </div>
 
-                                        <!-- Used to display form errors --
+                                        <!-- Used to display form errors
                                         <div id="card-errors"></div>
                                       </div>
                                       <br>
                                       <button class="btn btn-primary standard-button">Subscribe</button>
                                     </form>
-
+                                      -->
 
                                 </div>
-                            </div>-->
+
 
                             <!-- SINGLE PACKAGE -->
-                            <div class="center-block flipInY" data-wow-offset="20" data-wow-duration="1.75s">
+                            <div class="col-md-6 wow flipInY" data-wow-offset="20" data-wow-duration="1.75s">
                                 <div class="single-pricing border-bottom-hover">
 
                                     <div class="package-title">
@@ -437,22 +393,23 @@
                                         <li><span class="colored-text strong">we offset all</span>of your emissions, making you carbon neutral</li>
                                     </ul>
 
-
-                                    <form action="/charge" method="post" id="payment-form">
-                                      <div class="form-row">
-
-                                        <div id="card-element">
-                                          <!-- a Stripe Element will be inserted here. -->
-                                        </div>
-
-                                        <!-- Used to display form errors -->
-                                        <div id="card-errors"></div>
-                                      </div>
-                                      <br>
-                                      <button class="btn btn-primary standard-button">Subscribe</button>
+                                    <form method="POST">
+                                      <script
+                                        src="https://checkout.stripe.com/v2/checkout.js"
+                                        class="stripe-button"
+                                        data-key="pk_test_G5YhIkq2PEq84lwU064TZENT"
+                                        data-amount="1000"
+                                        data-name="ecotrack"
+                                        data-description=""
+                                        data-image="https://www.ecotrack.me/images/favicons/ecotrack_icon_feb2017152.png"
+                                        data-panel-label="subscribe"
+                                        data-allow-remember-me=false
+                                        data-label="Sign up"
+                                        >
+                                      </script>
                                     </form>
 
-
+</div>
                                 </div>
                             </div>
                         </div>
