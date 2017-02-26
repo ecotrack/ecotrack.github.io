@@ -163,14 +163,7 @@
 
     <!-- CUSTOM JS  -->
     <script src="js/custom.js"></script>
-    <script>
-    $('form').submit(function(e){
-    e.preventDefault();
-    $.post("https://1hxpj3e940.execute-api.us-west-2.amazonaws.com/test", sentData, function(receivedData){
-        useTheResponseData(receivedData);
-      });
-    });
-    </script>
+
 </body>
 
 </html>
