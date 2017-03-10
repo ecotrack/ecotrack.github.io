@@ -4,7 +4,7 @@
 =========================================
 -----------------------------------------*/
 /*---------------------------------------
-   4.1 FIXES FOR 992PX to <= 1199PX SCREENS          
+   4.1 FIXES FOR 992PX to <= 1199PX SCREENS
 -----------------------------------------*/
 @media (min-width: 992px) and (max-width: 1199px) {
 	html {
@@ -18,7 +18,7 @@
 }
 
 /*---------------------------------------
-   4.2 FIXES FOR <= 1024PX SCREENS          
+   4.2 FIXES FOR <= 1024PX SCREENS
 -----------------------------------------*/
 @media (max-width: 1024px) {
 	.header .overlay-layer {
@@ -55,7 +55,7 @@
 }
 
 /*---------------------------------------
-   4.3 FIXES FOR <= 991PX SCREENS          
+   4.3 FIXES FOR <= 991PX SCREENS
 -----------------------------------------*/
 @media (max-width: 991px) {
 	html {
@@ -66,7 +66,7 @@
 		font-size: 15px;
 		line-height: 26px;
 	}
-	
+
 	.browser-image img {
         width: 100%;
     }
@@ -149,7 +149,7 @@
 }
 
 /*---------------------------------------
-   4.4 FIXES FOR => 768PX to <= 991PX SCREENS          
+   4.4 FIXES FOR => 768PX to <= 991PX SCREENS
 -----------------------------------------*/
 @media (min-width: 768px) and (max-width: 991px) {
 	html {
@@ -161,7 +161,7 @@
 	}
 
 	.sticky-navigation .navbar-brand img {
-		max-width: 80px;
+		max-width: 150px;
 	}
 
 	.sticky-navigation .main-navigation li a {
@@ -183,7 +183,7 @@
 }
 
 /*---------------------------------------
-   4.5 FIXES FOR <= 768PX SCREENS          
+   4.5 FIXES FOR <= 768PX SCREENS
 -----------------------------------------*/
 @media (max-width: 767px) {
 	html {
@@ -290,7 +290,7 @@
 }
 
 /*---------------------------------------
-   4.6 FIXES FOR MOBILE SCREENS          
+   4.6 FIXES FOR MOBILE SCREENS
 -----------------------------------------*/
 @media (max-width: 580px) {
 	html {
@@ -302,7 +302,7 @@
 		line-height: 23px;
 		font-weight: 400;
 	}
-	
+
 	h3,
     h4 {
 		font-weight: 600;
@@ -361,7 +361,7 @@
 		margin-top: 15px;
 		margin-bottom: 30px;
 	}
-	
+
 	.pricing-table {
 	    padding-left: 0;
 	    padding-right: 0;
