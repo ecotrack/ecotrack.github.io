@@ -709,7 +709,7 @@
     <script src="js/jquery.min.js"></script>
     <script>
         /* PRE LOADER */
-        jQuery(window).load(function () {
+        jQuery(document).ready(function (
             "use strict";
             jQuery(".status").fadeOut();
             jQuery(".preloader").delay(1000).fadeOut("slow");
@@ -731,7 +731,15 @@
 
     <!-- CUSTOM JS  -->
     <script src="js/custom.js"></script>
-
+    <script>
+    function handleOutboundLinkClicks(event) {
+      ga('send', 'event', {
+        eventCategory: 'Outbound Link',
+        eventAction: 'click',
+        eventLabel: event.target.href
+      });
+    }
+    </script>
 
     <!--<form method="POST" action="https://1hxpj3e940.execute-api.us-west-2.amazonaws.com/test">
       <script
