@@ -969,14 +969,7 @@
      SCRIPTS
     ============================== -->
     <script src="js/jquery.min.js"></script>
-    <script>
-        /* PRE LOADER */
-        jQuery(document).ready(function () {
-            "use strict";
-            jQuery(".status").fadeOut();
-            jQuery(".preloader").delay(1000).fadeOut("slow");
-        })
-    </script>
+
     <script src="js/smoothscroll.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.nav.js"></script>
@@ -992,7 +985,14 @@
 
     <!-- CUSTOM JS  -->
     <script src="js/custom.js"></script>
-
+    <script>
+        /* PRE LOADER */
+        jQuery(document).ready(function () {
+            "use strict";
+            jQuery(".status").fadeOut();
+            jQuery(".preloader").delay(1000).fadeOut("slow");
+          })
+      </script>
 </body>
 
 </html>
