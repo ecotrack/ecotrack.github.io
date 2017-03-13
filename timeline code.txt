@@ -1,0 +1,96 @@
+  <!-- =========================
+     SECTION: BRIEF LEFT
+    ============================== -->
+    <section class="brief white-bg-border text-left" id="section6">
+        <div class="container">
+            <div class="row">
+
+
+
+                <!-- BRIEF HEADING -->
+                <div class="col-md-6 col-sm-10 content-section pull-left wow fadeInRight" data-wow-offset="20" data-wow-duration="1.75s">
+                    <h2 class="text-left dark-text"><strong>our</strong> short story </h2>
+                    <div class="colored-line-left">
+                    </div>
+                    <p class="text-left">
+                        ecotrack started in 2015. Simon was helping the British government negotiate the <a href="http://www.bbc.com/news/science-environment-35073297">Paris Agreement on climate change</a>. But he became frustrated that he did not know his own carbon footprint. Why is personal sustainability so hard?
+                    </p><p>
+                      Studying at Harvard in 2016, Simon met Yan, a data scientist at MIT, who also had a shared passion for using tech to help people go green. Then they met Josh and Jason, also from MIT, who shared their vision and joined as gurus of growth and code, respectively.</p>
+                    <p>Together, we want to make personal sustainability simple. With ecotrack, we aim to help humans cut carbon.</p>
+
+                </div>
+                <!-- TIMLEINE SCROLLER -->
+                <div class="col-md-6 timeline-section wow fadeInRight" data-wow-offset="1" data-wow-duration="1.75s">
+                    <ul class="vertical-timeline" id="timeline-scroll">
+
+                        <!-- SINGLE TIMELINE -->
+                        <li>
+                            <div class="date small-text colored-text strong">
+                                Jan, 12
+                            </div>
+                            <div class="icon-container color-bg white-text">
+                                <span class="icon-ribbon-alt"></span>
+                            </div>
+                            <div class="info">
+                                Drinking vinegar Echo Park selfies heirloom aesthetic, taxidermy keytar next level craft beer.
+                            </div>
+                        </li>
+
+                        <!-- SINGLE TIMELINE -->
+                        <li>
+                            <div class="date small-text dark-text strong">
+                                Apr, 14
+                            </div>
+                            <div class="icon-container color-bg white-text">
+                                <span class="icon-piechart"></span>
+                            </div>
+                            <div class="info">
+                                American Apparel meggings asymmetrical organic Marfa typewriter shabby chic Brooklyn, farm-to-table butcher.
+                            </div>
+                        </li>
+
+                        <!-- SINGLE TIMELINE -->
+                        <li>
+                            <div class="date small-text dark-text strong">
+                                Feb, 13
+                            </div>
+                            <div class="icon-container color-bg white-text">
+                                <span class="icon-cart-alt"></span>
+                            </div>
+                            <div class="info">
+                                Keytar stumptown hoodie, crucifix meggings messenger bag brunch deep v. High Life taxidermy mumblecore.
+                            </div>
+                        </li>
+
+                        <!-- SINGLE TIMELINE -->
+                        <li>
+                            <div class="date small-text dark-text strong">
+                                Dec, 13
+                            </div>
+                            <div class="icon-container color-bg white-text">
+                                <span class="icon-paperclip"></span>
+                            </div>
+                            <div class="info">
+                                Wayfarers Carles seitan, VHS bicycle rights normcore butcher skateboard bitters Portland cred.
+                            </div>
+                        </li>
+
+                        <!-- SINGLE TIMELINE -->
+                        <li>
+                            <div class="date small-text dark-text strong">
+                                May, 14
+                            </div>
+                            <div class="icon-container color-bg white-text">
+                                <span class="icon-check"></span>
+                            </div>
+                            <div class="info">
+                                Four loko Pitchfork cred irony selfies meggings lo-fi iPhone hashtag, craft beer Helvetica crucifix keytar.
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
