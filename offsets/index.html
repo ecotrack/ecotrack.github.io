@@ -373,6 +373,15 @@
                                         data-label="Sign up"
                                         >
                                       </script>
+                                      <!-- The below method uses jQuery, but that is not required -->
+                                      <script type="text/javascript">
+                                      $( '#5dollar' ).click(function() {
+                                      fbq('track', 'ClickToSubscribe', {
+                                      value: 5,
+                                      currency: 'USD'
+                                      });
+                                      });
+                                      </script>
 
 
 
