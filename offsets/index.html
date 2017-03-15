@@ -3,6 +3,22 @@
 
 <head>
 
+  <!-- Facebook Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+  document,'script','https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '629197637270706'); // Insert your pixel ID here.
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=629197637270706&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- DO NOT MODIFY -->
+  <!-- End Facebook Pixel Code -->
+
 <script src="https://js.stripe.com/v3/"></script>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -311,42 +327,19 @@
 
                         <!-- SECTION HEADER -->
                         <div class="section-header">
-                            <h2 class="dark-text"><strong>subscription</strong> options</h2>
+                            <h2 class="dark-text"><strong>sign up</strong> now</h2>
                             <div class="colored-line">
                             </div>
                             <div class="sub-heading">
-                                we offset your emissions so you can <strong>go carbon neutral</strong>. You can also <strong>cancel anytime</strong>, no questions asked.         </div>
+                                we offset your emissions so you can <strong>go carbon neutral</strong>. You can also <strong>cancel anytime</strong>, no questions asked.</div>
                         </div>
 
                         <!-- PRICING TABLE -->
                         <div class="row pricing-table">
 
-                            <!-- SINGLE PACKAGE --
-                            <div class="col-md-4 wow fadeInLeft" data-wow-offset="20" data-wow-duration="1.75s">
-                                <div class="single-pricing border-bottom-hover">
-
-                                    <div class="package-title">
-                                        <h3 class="colored-text">free account</h3>
-                                        <div class="colored-line">
-                                        </div>
-                                    </div>
-
-                                    <h2 class="price"><span class="superscript"></span>free<span class="month small-text">for life</span></h2>
-
-                                    <ul class="package-list">
-                                        <li><span class="colored-text strong">powerful</span>carbon tracking across foot, transport and energy</li>
-                                        <li><span class="colored-text strong">tailored tips</span>to cut carbon</li>
-                                    </ul>
-
-                                    <div class="button">
-                                        <a href="#signup" class="btn standard-button inpage-scroll">Get started</a>
-                                    </div>
-
-                                </div>
-                            </div>-->
 
                             <!-- SINGLE PACKAGE -->
-                            <div class="col-md-6 wow flipInY" data-wow-offset="20" data-wow-duration="1.75s">
+                            <div class="col-md-12 wow flipInY" data-wow-offset="20" data-wow-duration="1.5s">
                                 <div class="single-pricing border-bottom-hover">
 
                                     <div class="package-title">
@@ -357,10 +350,14 @@
                                     <h2 class="price"><span class="superscript">$</span>5<span class="month small-text">per month</span></h2>
 
                                     <ul class="package-list">
-                                        <li><span class="colored-text strong">we offset</span>half of your emissions</li>
+                                        <li><span class="colored-text strong">we offset</span>all of your emissions (assuming an average 15-ton US carbon footprint)</li>
                                     </ul>
 
-                                    <form method="POST" action="https://1hxpj3e940.execute-api.us-west-2.amazonaws.com/test" id="5dollar">
+                                    <form
+                                      method="POST"
+                                      action="https://1hxpj3e940.execute-api.us-west-2.amazonaws.com/test"
+                                      id="5dollar"
+                                      >
                                       <script
                                         src="https://checkout.stripe.com/v2/checkout.js"
                                         class="stripe-button"
@@ -376,47 +373,40 @@
                                         data-label="Sign up"
                                         >
                                       </script>
+
+
+
                                   </div>
 
 
                                 </div>
 
 
-                            <!-- SINGLE PACKAGE -->
-                            <div class="col-md-6 wow flipInY" data-wow-offset="20" data-wow-duration="1.75s">
-                                <div class="single-pricing border-bottom-hover">
 
-                                    <div class="package-title">
-                                        <h3 class="colored-text">go carbon neutral</h3>
-                                        <div class="colored-line">
-                                        </div>
-                                    </div>
-                                    <h2 class="price"><span class="superscript">$</span>10<span class="month small-text">per month</span></h2>
+                                                            <!-- SINGLE PACKAGE --
+                                                            <div class="col-md-4 wow fadeInLeft" data-wow-offset="20" data-wow-duration="1.75s">
+                                                                <div class="single-pricing border-bottom-hover">
 
-                                    <ul class="package-list">
-                                        <li><span class="colored-text strong">we offset all</span>of your emissions, making you carbon neutral</li>
-                                    </ul>
+                                                                    <div class="package-title">
+                                                                        <h3 class="colored-text">free account</h3>
+                                                                        <div class="colored-line">
+                                                                        </div>
+                                                                    </div>
 
-                                      <form method="POST" action="https://1hxpj3e940.execute-api.us-west-2.amazonaws.com/test" id="10dollar">
-                                        <script
-                                          src="https://checkout.stripe.com/v3/checkout.js"
-                                          class="stripe-button"
-                                          data-key="pk_test_KqGdclmBM3GvpsDqvBUka9gt"
-                                          data-amount="500"
-                                          data-name="ecotrack"
-                                          data-description="10dollarplan"
-                                          data-locale="auto"
-                                          data-zip-code=false
-                                          data-image="https://www.ecotrack.me/images/favicons/ecotrack_icon_feb2017152.png"
-                                          data-panel-label="subscribe"
-                                          data-allow-remember-me=false
-                                          data-label="Sign up"
-                                          >
-                                        </script>
-                                      </form>
+                                                                    <h2 class="price"><span class="superscript"></span>free<span class="month small-text">for life</span></h2>
 
-                                      </div>
-                                </div>
+                                                                    <ul class="package-list">
+                                                                        <li><span class="colored-text strong">powerful</span>carbon tracking across foot, transport and energy</li>
+                                                                        <li><span class="colored-text strong">tailored tips</span>to cut carbon</li>
+                                                                    </ul>
+
+                                                                    <div class="button">
+                                                                        <a href="#signup" class="btn standard-button inpage-scroll">Get started</a>
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>-->
+
                             </div>
                         </div>
                     </div>
